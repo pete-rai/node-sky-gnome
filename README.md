@@ -55,9 +55,7 @@ everyone can benefit from it.
 This project assumes you are familiar with the whole [nodejs](https://nodejs.org/en/) thing.
 
 ```
-
 npm install sky-gnome
-
 ```
 
 ### Dependencies
@@ -67,9 +65,7 @@ this is all taken care of by the node package manager. After cloning this repo, 
 just need to:
 
 ```
-
 npm install serialport
-
 ```
 
 ## Example Usage
@@ -122,7 +118,7 @@ bunches depending upon the action which just occurred on the box. Play with it f
 while and you will see how it all works.
 
 | Key | Type | Description |
-|: --- :|: --- :|: --- |
+|:---:|:---:|:---|
 | received | date | When the message was received from the set top box |
 | channel.* |   | Information about the current channel |
 | channel.num | int | Three digit channel number |

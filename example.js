@@ -28,7 +28,7 @@ process.openStdin ().on ('data', function ()
     this.pause ();
 });
 
-const SkyGnome = require ('./index.js');
+const SkyGnome = require ('sky-gnome');
 
 var stb = new SkyGnome ('/dev/cu.usbserial');  // the path to your serail interface
 

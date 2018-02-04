@@ -133,7 +133,6 @@ while and you will see how it all works.
 | program.year | int | Year of production |
 | program.warnings | array of string | Content warnings (see below) |
 | showing.* |    | Information about the current programme schedule showing |
-| showing.attributes | array of string | Content attributes (see below) |
 | showing.started | date | When the current programme began |
 | showing.attributes | array of string | Content attributes (see below) |
 | epg.* |   | The raw as received data from the Gnome protocol |

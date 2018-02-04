@@ -118,10 +118,10 @@ bunches depending upon the action which just occurred on the box. Play with it f
 while and you will see how it all works.
 
 | Key | Type | Description |
-|:---:|:---:|:---|
+|:---|:---:|:---|
 | received | date | When the message was received from the set top box |
 | channel.* |   | Information about the current channel |
-| channel.num | int | Three digit channel number |
+| channel.number | int | Three digit channel number |
 | channel.name | string | Channel name as per the EPG |
 | program.* |   | Information about the current programme |
 | program.title | string | Name of the current programme |
@@ -179,7 +179,10 @@ packing stuff in there. For example:
 As you can see here we have the year of production and the running time within
 the synopsis text. This node module pulls stuff like this out via some regex magic
 and makes it available directly. It also, removes them from the synopsis to give
-a cleaner content descriptor. However, if you just want the data as received via
+a cleaner content descriptor. It does some other useful stuff too, like rejoining
+long titles that have been split into the synopsis with trailing ellipes.
+
+Despite all this goodness, if you just want the data as received via
 the Gnome protocol, then that is present too within the 'epg' portion of the JSON
 document.
 

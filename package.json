@@ -1,0 +1,40 @@
+{
+  "name": "sky-gnome",
+  "version": "1.0.0",
+  "description": "Connects, reads and interprets the Sky Gnome protocol - which is output over the serial interface of every standard, retail Sky set-top-box.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sky",
+    "gnome",
+    "metadata",
+    "stb",
+    "set top box",
+    "serial",
+    "rs232",
+    "usb",
+    "pvr",
+    "dvr",
+    "ird",
+    "television",
+    "tv",
+    "channel",
+    "synopsis"
+  ],
+  "author": "Pete Rai <pete@rai.org.uk> (http://rai.org.uk)",
+  "license": "MIT",
+  "dependencies": {
+    "serialport": "^6.0.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pete-rai/node-sky-gnome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pete-rai/node-sky-gnome/issues"
+  },
+  "homepage": "https://github.com/pete-rai/node-sky-gnome#readme"
+}

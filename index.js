@@ -95,12 +95,9 @@ function SkyGnome (path)
                             {
                                 var data = _read (packet);  // read the packet
 
-                                if (Object.keys (data).length > 0)  // any data of value found
+                                if (callback (false, data))
                                 {
-                                    if (callback (false, data))
-                                    {
-                                        self._stb.close ();  // stop listening
-                                    }
+                                    self._stb.close ();  // stop listening
                                 }
                             }
                         }

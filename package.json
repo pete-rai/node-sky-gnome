@@ -1,6 +1,6 @@
 {
   "name": "sky-gnome",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Connects, reads and interprets the Sky Gnome protocol - which is output over the serial interface of every standard, retail Sky set-top-box.",
   "main": "index.js",
   "scripts": {
